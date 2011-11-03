@@ -1,3 +1,9 @@
+# revision 18125
+# category Package
+# catalog-ctan /macros/generic/arrayjobx
+# catalog-date 2010-05-11 12:36:30 +0200
+# catalog-license lppl
+# catalog-version 1.04
 Name:		texlive-arrayjobx
 Version:	1.04
 Release:	1
@@ -47,6 +53,7 @@ the arrayjob package.
 %doc %{_texmfdistdir}/doc/generic/arrayjobx/arrayjob.tex
 %doc %{_texmfdistdir}/doc/generic/arrayjobx/arrayjobx.pdf
 %doc %{_texmfdistdir}/doc/generic/arrayjobx/arrayjobx.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ the arrayjob package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
