@@ -6,7 +6,7 @@
 # catalog-version 1.04
 Name:		texlive-arrayjobx
 Version:	1.04
-Release:	8
+Release:	9
 Summary:	Array data structures for (La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/arrayjobx
