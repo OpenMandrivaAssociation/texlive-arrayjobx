@@ -1,6 +1,6 @@
 Name:		texlive-arrayjobx
 Version:	18125
-Release:	1
+Release:	2
 Summary:	Array data structures for (La)TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/arrayjobx
