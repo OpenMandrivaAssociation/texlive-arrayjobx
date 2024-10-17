@@ -3,7 +3,7 @@ Version:	18125
 Release:	2
 Summary:	Array data structures for (La)TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/generic/arrayjobx
+URL:		https://www.ctan.org/tex-archive/macros/generic/arrayjobx
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arrayjobx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arrayjobx.doc.r%{version}.tar.xz
